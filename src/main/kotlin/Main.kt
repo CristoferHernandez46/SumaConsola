@@ -6,8 +6,19 @@ fun main(){
     print("Ingrese un numero 2: ")
     val n2 = readLine()!!.toInt()
 
-    val resultado = n1 + n2
-    println("El resulado es: "+resultado)
+    var resultado = n1 + n2
+    println("La suma es: "+resultado)
 
+     resultado = n1 - n2
+    println("La resta es: "+resultado)
+
+    resultado = n1 * n2
+    println("La multiplicacion es: "+resultado)
+
+    resultado = n1 / n2
+    println("La division es: "+resultado)
+
+
+    println("Desarrollador Movil Cristofer Nicolas Hernandez Hernandez")
 
 }
